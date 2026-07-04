@@ -10,6 +10,7 @@ export default {
         display: ['"Bebas Neue"', 'sans-serif'],
         mono: ['"Space Mono"', 'monospace'],
         sans: ['Inter', 'sans-serif'],
+        serif: ['Cinzel', '"Bodoni Moda"', 'serif'],
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
