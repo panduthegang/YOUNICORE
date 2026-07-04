@@ -35,7 +35,7 @@ export default function Services() {
             <span className="font-mono text-xs md:text-sm text-[#b28b81] tracking-widest pt-1.5 drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]">
               02.
             </span>
-            <h2 className="font-serif text-4xl sm:text-5xl lg:text-5xl xl:text-[3.25rem] tracking-tight text-[#FAF6F0] leading-none uppercase drop-shadow-[0_4px_12px_rgba(0,0,0,0.95)]">
+            <h2 className="font-display text-4xl sm:text-5xl lg:text-6.5xl tracking-wider text-[#FAF6F0] leading-none uppercase drop-shadow-[0_4px_12px_rgba(0,0,0,0.95)] font-bold">
               Services
             </h2>
           </div>

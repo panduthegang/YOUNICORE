@@ -90,7 +90,7 @@ export default function Work() {
             <span className="font-mono text-xs md:text-sm text-[#b28b81] tracking-widest pt-1.5">
               03.
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight text-[#FAF6F0] leading-none">
+            <h2 className="font-display text-4xl sm:text-5xl lg:text-6.5xl uppercase tracking-wider text-[#FAF6F0] leading-none font-bold">
               Selected Work
             </h2>
           </div>
