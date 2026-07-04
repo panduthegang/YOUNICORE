@@ -5,7 +5,7 @@ export default function Hero() {
   const [isHoveredBadge, setIsHoveredBadge] = useState(false);
 
   return (
-    <section className="relative w-full min-h-screen bg-[#050404] text-[#FAF6F0] flex flex-col justify-between overflow-hidden font-sans select-none">
+    <section className="relative w-full h-screen bg-[#050404] text-[#FAF6F0] flex flex-col justify-between overflow-hidden font-sans select-none">
       {/* Background Image with Dark Vignette/Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-85 z-0"
@@ -74,12 +74,15 @@ export default function Hero() {
         </div>
 
         {/* CENTER TITLE */}
-        <div className="relative w-full my-auto py-12 flex items-center justify-center">
+        <div className="relative w-full my-auto py-4 flex items-center justify-center">
           <div className="relative select-none pointer-events-none">
             {/* Background glowing aura behind text */}
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-pink-500/5 to-purple-500/10 blur-[80px] pointer-events-none" />
 
-            <h1 className="font-display text-[15vw] md:text-[14vw] leading-none uppercase tracking-[-0.02em] text-[#FAF6F0] drop-shadow-[0_10px_30px_rgba(0,0,0,0.8)]">
+             <h1 
+              className="font-display text-[19vw] leading-none uppercase tracking-[-0.045em] text-[#FAF6F0] drop-shadow-[0_10px_30px_rgba(0,0,0,0.8)] block text-center"
+              style={{ transform: 'scaleY(1.35) translateY(8%)', transformOrigin: 'center center' }}
+            >
               YOUNICORE
             </h1>
           </div>
@@ -137,7 +140,7 @@ export default function Hero() {
                 <span className="text-white/25 group-hover:text-white/50">THE UNSEEN</span>
               </span>
               <div className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center group-hover:border-white/30 group-hover:bg-white/5 transition-all duration-300">
-                <ArrowDown className="w-3.5 h-3.5 text-white/50 group-hover:text-white group-hover:translate-y-0.5 transition-all duration-300" />
+                <ArrowDown className="w-3.5 h-3.5 text-white/50 animate-bounce group-hover:text-white" />
               </div>
             </div>
           </div>
