@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import Manifesto from './components/Manifesto'
+import Work from './components/Work'
 import Services from './components/Services'
 import Footer from './components/Footer'
 
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Manifesto />
       <Services />
+      <Work />
       <Footer />
     </main>
   )
