@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Manifesto from './components/Manifesto'
 import Work from './components/Work'
 import Services from './components/Services'
+import Team from './components/Team'
 import Footer from './components/Footer'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Manifesto />
       <Services />
       <Work />
+      <Team />
       <Footer />
     </main>
   )

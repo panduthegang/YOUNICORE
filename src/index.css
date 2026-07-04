@@ -27,3 +27,41 @@
     background: #3a3532;
   }
 }
+
+/* Responsive menu styling for smaller viewport heights to prevent layout cutoff */
+@media (max-height: 850px) {
+  .menu-link-text {
+    font-size: 2.75rem !important; /* Larger text ~44px */
+  }
+  .menu-links-container {
+    gap: 1.25rem !important; /* Controlled gap ~20px */
+  }
+  .menu-right-panel {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+}
+@media (max-height: 720px) {
+  .menu-link-text {
+    font-size: 2.25rem !important; /* Mid text ~36px */
+  }
+  .menu-links-container {
+    gap: 0.85rem !important; /* Tighter gap ~14px */
+  }
+  .menu-right-panel {
+    padding-top: 1.75rem !important;
+    padding-bottom: 1.75rem !important;
+  }
+}
+@media (max-height: 600px) {
+  .menu-link-text {
+    font-size: 1.85rem !important; /* Small text ~30px */
+  }
+  .menu-links-container {
+    gap: 0.65rem !important; /* Micro gap ~10px */
+  }
+  .menu-right-panel {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+}

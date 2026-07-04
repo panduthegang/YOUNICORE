@@ -19,8 +19,9 @@ export default function Navbar() {
     { name: 'Home', href: '#hero', num: '01' },
     { name: 'Manifesto', href: '#manifesto', num: '02' },
     { name: 'Services', href: '#services', num: '03' },
-    { name: 'Selected Work', href: '#services', num: '04' }, // Links to work section (below services in App.tsx)
-    { name: 'Contact', href: '#footer', num: '05' },
+    { name: 'Selected Work', href: '#services', num: '04' },
+    { name: 'The Collective', href: '#team', num: '05' },
+    { name: 'Contact', href: '#footer', num: '06' },
   ];
 
   const handleLinkClick = (href: string) => {
@@ -103,7 +104,7 @@ export default function Navbar() {
         </div>
 
         {/* Right Side: Navigation Menu & Header */}
-        <div className="w-full lg:w-[58%] xl:w-[55%] h-full flex flex-col justify-between p-6 md:p-12 lg:p-16 relative">
+        <div className="w-full lg:w-[58%] xl:w-[55%] h-full flex flex-col justify-between p-6 md:p-12 lg:p-16 relative menu-right-panel">
           
           {/* Fullscreen Overlay Header */}
           <div className="w-full flex items-center justify-between z-10">
@@ -129,7 +130,7 @@ export default function Navbar() {
 
           {/* Navigation Links (Centered vertically) */}
           <div className="flex flex-col justify-center flex-1 my-auto pl-0 md:pl-12 lg:pl-16 z-10">
-            <div className="flex flex-col gap-6 sm:gap-8 max-w-lg">
+            <div className="flex flex-col gap-6 sm:gap-8 max-w-lg menu-links-container">
               {menuItems.map((item, index) => (
                 <a
                   key={index}
@@ -153,7 +154,7 @@ export default function Navbar() {
                   </span>
                   
                   {/* Title */}
-                  <span className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] uppercase tracking-wider text-[#FAF6F0] group-hover:text-[#b28b81] transition-colors duration-300 leading-none">
+                  <span className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] uppercase tracking-wider text-[#FAF6F0] group-hover:text-[#b28b81] transition-colors duration-300 leading-none menu-link-text">
                     {item.name}
                   </span>
                 </a>
