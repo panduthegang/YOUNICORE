@@ -13,45 +13,6 @@ export default function Hero() {
           backgroundImage: `url('https://res.cloudinary.com/dkev7ein3/image/upload/v1783167539/Hero_c4lz4z.png')`,
         }}
       />
-      {/* HEADER NAVBAR */}
-      <header className="relative w-full flex items-center justify-between px-6 py-6 md:px-12 md:py-8 z-10">
-        {/* Logo */}
-        <div className="flex items-center gap-3 group cursor-pointer">
-          <div className="w-9 h-9 rounded-full border border-white/30 flex items-center justify-center transition-all duration-500 group-hover:border-white group-hover:shadow-[0_0_15px_rgba(255,255,255,0.4)]">
-            <span className="font-mono text-sm font-semibold tracking-tighter">Y</span>
-          </div>
-          <span className="font-mono text-xs uppercase tracking-[0.3em] font-semibold text-white/95 group-hover:text-white transition-colors duration-300">
-            Younicore
-          </span>
-        </div>
-
-        {/* Navigation Menu (Hidden on mobile) */}
-        <nav className="hidden lg:flex items-center gap-10">
-          {['Work', 'Services', 'About', 'Manifesto', 'Contact'].map((item) => (
-            <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              className="relative font-mono text-[10px] uppercase tracking-[0.25em] text-white/60 hover:text-white transition-colors duration-300 py-1 group"
-            >
-              {item}
-              <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-white transition-all duration-300 group-hover:w-full" />
-            </a>
-          ))}
-        </nav>
-
-        {/* Action Button & Hamburger */}
-        <div className="flex items-center gap-4">
-          <button className="group flex items-center gap-2 px-5 py-2 rounded-full border border-white/20 bg-white/5 backdrop-blur-md text-[10px] uppercase tracking-[0.2em] hover:bg-white hover:text-black hover:border-white transition-all duration-500">
-            <span>Let's Build</span>
-            <Plus className="w-3.5 h-3.5 transition-transform duration-500 group-hover:rotate-90" />
-          </button>
-          
-          <button className="p-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/15 transition-colors duration-300" aria-label="Menu">
-            <Menu className="w-4 h-4 text-white/80" />
-          </button>
-        </div>
-      </header>
-
       {/* LEFT SIDEBAR (VERTICAL COPYRIGHT) - Hidden on small screens */}
       <div className="hidden md:flex absolute left-8 top-1/2 -translate-y-1/2 flex-col items-center gap-4 z-10 origin-left -rotate-90 pointer-events-none">
         <span className="font-mono text-[9px] uppercase tracking-[0.4em] text-white/30 whitespace-nowrap">
@@ -63,7 +24,7 @@ export default function Hero() {
       <div className="relative flex-1 flex flex-col justify-between px-6 py-8 md:px-12 lg:px-24 z-10">
         
         {/* UPPER CONTENT (Agency slogan / info) */}
-        <div className="w-full flex justify-start mt-4 md:mt-8">
+        <div className="w-full flex justify-start mt-24 md:mt-28">
           <div className="max-w-xs font-mono text-[10px] md:text-[11px] leading-relaxed text-white/50 tracking-wider">
             <p className="border-l border-white/20 pl-3">
               A DESIGN AGENCY<br />
