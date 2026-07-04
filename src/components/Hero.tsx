@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, ArrowDown, Plus } from 'lucide-react';
 
 export default function Hero() {
