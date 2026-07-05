@@ -14,6 +14,7 @@ YOUNICORE is a premium, high-end digital design agency website built for the new
 - 🌀 **Parallax & Motion Effects**: Dynamic cursor-interactive floating overlays, rotating stamp seals, and clean hover state transformations.
 - 📐 **Responsive Sticky Horizontal Scroll**: A custom horizontal scroll showcase for **Selected Work** projects built using React scroll hooks that runs smoothly on both desktop and mobile touchscreens.
 - 👥 **The Collective Grid**: A full-width vertical portrait showcase of the creative team with overlay text descriptions and zoom interactions.
+- 📜 **Lenis Smooth Scrolling**: Global integration of the Lenis smooth-scrolling engine with customized deceleration easing for a highly fluid, cinematic scroll feel.
 - 🔗 **Full SEO Optimization**: Open Graph and Twitter Card tags configured with custom link preview assets for premium card sharing visuals.
 
 ---
@@ -22,6 +23,7 @@ YOUNICORE is a premium, high-end digital design agency website built for the new
 
 - **Framework**: [React 18](https://react.dev/) (with [TypeScript](https://www.typescriptlang.org/))
 - **Bundler & Server**: [Vite](https://vitejs.dev/) (for fast hot module reloading)
+- **Smooth Scroll**: [Lenis](https://lenis.darkroom.engineering/) (for inertial mouse and touch gestures)
 - **Styling**: [TailwindCSS](https://tailwindcss.com/) & Vanilla CSS variables
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Fonts**:
