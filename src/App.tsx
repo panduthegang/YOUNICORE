@@ -39,6 +39,7 @@ function App() {
       orientation: 'vertical',
       gestureOrientation: 'vertical',
       smoothWheel: true,
+      syncTouch: true, // Modern touch gestures smooth scrolling
       wheelMultiplier: 1,
       touchMultiplier: 2,
     })
