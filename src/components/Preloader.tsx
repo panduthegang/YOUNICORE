@@ -93,7 +93,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         isExiting ? 'translate-y-[-100%]' : 'translate-y-0'
       }`}
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(5, 4, 4, 0.95) 0%, rgba(5, 4, 4, 0.97) 100%), url('https://res.cloudinary.com/dkev7ein3/image/upload/v1783171769/Card-BG_knwnmo.png')`,
+        backgroundImage: `linear-gradient(to bottom, rgba(5, 4, 4, 0.88) 0%, rgba(5, 4, 4, 0.94) 100%), url('https://res.cloudinary.com/dkev7ein3/image/upload/v1783167539/Hero_c4lz4z.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

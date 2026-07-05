@@ -25,6 +25,11 @@ function App() {
   }, [isLoading])
 
   useEffect(() => {
+    // Disable browser scroll restoration to prevent page jumps on refresh
+    window.history.scrollRestoration = 'manual'
+  }, [])
+
+  useEffect(() => {
     // Only initialize smooth scroll after assets are preloaded
     if (isLoading) return
 
@@ -37,6 +42,10 @@ function App() {
       wheelMultiplier: 1,
       touchMultiplier: 2,
     })
+
+    // Force scroll position to top instantly on load
+    window.scrollTo(0, 0)
+    lenis.scrollTo(0, { immediate: true })
 
     // Animation frame callback
     function raf(time: number) {
