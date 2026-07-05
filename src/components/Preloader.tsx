@@ -102,8 +102,9 @@ export default function Preloader({ onComplete }: PreloaderProps) {
       {/* Top Header Indicators */}
       <div className="w-full flex items-center justify-between z-10">
         <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-full border border-white/25 flex items-center justify-center animate-spin-slow bg-white/5">
-            <span className="font-mono text-base font-semibold tracking-tighter text-[#FAF6F0]">Y</span>
+          <div className="relative w-12 h-12 flex items-center justify-center">
+            <div className="absolute inset-0 rounded-full border border-white/25 animate-spin-slow bg-white/5" />
+            <span className="relative font-mono text-base font-semibold tracking-tighter text-[#FAF6F0]">Y</span>
           </div>
           <div className="flex flex-col">
             <span className="font-mono text-xs uppercase tracking-[0.35em] font-bold text-[#FAF6F0]">
